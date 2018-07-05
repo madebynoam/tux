@@ -1,6 +1,8 @@
+import { Neutrino } from 'neutrino'
+
 const { merge } = require('@neutrinojs/compile-loader')
 
-const styledMiddleware = (neutrino, opts = {}) => {
+const styledMiddleware = (neutrino: Neutrino, opts = {}) => {
   const options = Object.assign(
     {
       ssr: true,

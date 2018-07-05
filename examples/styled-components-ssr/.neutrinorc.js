@@ -1,12 +1,12 @@
 const { version: appVersion } = require('./package.json')
 
 module.exports = {
-  options: {
-    serverEntry: 'server',
-  },
-  use: [
-    'tux/neutrino',
-    // Styled components
-    'src/middlewares/styled-components/neutrino',
-  ],
+	options: {
+		serverEntry: 'server',
+	},
+	use: [
+		'tux/neutrino',
+		// Styled components
+		'tux-addon-styled-components/neutrino',
+	],
 }

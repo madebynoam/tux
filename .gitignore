@@ -10,3 +10,9 @@ node_modules
 /*/*/es
 /*/*/build
 /*/*/coverage
+addons/styled-components/.DS_Store
+addons/.DS_Store
+yarn.lock
+yarn-error.log
+yarn.lock
+yarn.lock

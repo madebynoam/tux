@@ -1,6 +1,6 @@
 import React from 'react'
 import { createApp } from 'tux'
-import styled from './middlewares/styled-components'
+import styled from 'tux-addon-styled-components'
 import Home from './components/Home'
 
 // Create a Tux app.
